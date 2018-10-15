@@ -1,0 +1,60 @@
+{
+   "CONTROLS" : [
+    {
+       "DEFAULT" : 55,
+       "DESCRIPTION" : "time scale multiplier",
+       "IS_META" : false,
+       "MAX" : 100,
+       "MIN" : 10,
+       "NAME" : "time_scale",
+       "TYPE" : "slider",
+       "UI_GROUP" : "scaling"
+    },
+    {
+       "DEFAULT" : 0,
+       "DESCRIPTION" : "show labels",
+       "IS_META" : false,
+       "MAX" : 1,
+       "MIN" : 0,
+       "NAME" : "show_labels",
+       "TYPE" : "toggle",
+       "UI_GROUP" : "reference"
+    },
+    {
+       "DEFAULT" : 0.5,
+       "DESCRIPTION" : "label opacity",
+       "IS_META" : false,
+       "MAX" : 1,
+       "MIN" : 0,
+       "NAME" : "label_opacity",
+       "TYPE" : "slider",
+       "UI_GROUP" : "reference"
+    },
+    {
+       "DEFAULT" : 1,
+       "DESCRIPTION" : "show variable names",
+       "IS_META" : false,
+       "MAX" : 1,
+       "MIN" : 0,
+       "NAME" : "show_variables",
+       "TYPE" : "toggle",
+       "UI_GROUP" : "reference"
+    }
+   ],
+   "CREDIT" : "Kyle Grover",
+   "DESCRIPTION" : "Displays the value of Synesthesia uniforms",
+   "HEIGHT" : 1080,
+   "IMAGE_PATH" : "new_scene.png",
+   "TITLE" : "Uniforms Meters",
+   "WIDTH" : 1920,
+   "IMAGES" : [
+      {
+         "NAME" : "uniforms_labels",
+         "PATH" : "images/labels.png"
+      },
+      {
+         "NAME" : "uniforms_variables",
+         "PATH" : "images/variables.png"
+      }
+   ]
+}
